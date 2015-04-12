@@ -1,14 +1,14 @@
 {
-    "name": "xezzus/yii2-redis",
-    "description": "The connect to data base Redis.",
+    "name": "xezzus/yii2-postgres",
+    "description": "The connect to data base Postgres.",
     "type": "yii2-extension",
     "keywords": [
         "yii2",
         "extension",
-        "redis",
+        "postgres",
         "connect"
     ],
-    "homepage": "https://github.com/xezzus/Yii2-redis",
+    "homepage": "https://github.com/xezzus/Yii2-postgres",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -19,8 +19,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/xezzus/Yii2-redis/issues",
-        "source": "https://github.com/xezzus/Yii2-redis"
+        "issues": "https://github.com/xezzus/Yii2-postgres/issues",
+        "source": "https://github.com/xezzus/Yii2-postgres"
     },
     "require": {
         "php": ">=5.4.0",
@@ -38,7 +38,7 @@
           "dev-master":"0.x-dev"
         },
         "asset-installer-paths": {
-            "bower-asset-library": "vendor/yiisoft/yii2-redis"
+            "bower-asset-library": "vendor/xezzus/yii2-postgres"
         }
     }
 }
